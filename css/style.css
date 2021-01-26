@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "abc";
+    src: url(../asset/static/Quicksand-Regular.ttf);
+}
+body{
+    background-color: #001a33;
+    font-family: abc;
+}
+p{
+    font-size: 200%;
+    text-align: center;
+    color: #001a33;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.one{
+    animation-delay: 1s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.two{
+    animation-delay: 3s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.three{
+    animation-delay: 6s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.four{
+    animation-delay: 9s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.five{
+    animation-delay: 12s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.six{
+    animation-delay: 15s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.seven{
+    animation-delay: 18s;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.eight{
+    animation-delay: 20s;
+    animation-name: text-color;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes text-color{
+    from{color: #001a33;}
+    to{color: #1a8cff;}
+}
+@media screen and (max-width:800px){
+    p{
+        font-size: 4vw;
+    }
+}
