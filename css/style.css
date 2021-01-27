@@ -61,7 +61,7 @@ p{
 .eight{
     animation-delay: 20s;
     animation-name: text-color;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 @keyframes text-color{
@@ -75,7 +75,7 @@ p{
 }
 hr{
     width: 0%;
-    animation-delay: 22s;
+    animation-delay: 21s;
     animation-name: line;
     animation-duration: 2s;
     animation-fill-mode: forwards;
