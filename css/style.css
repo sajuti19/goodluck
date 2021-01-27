@@ -5,6 +5,7 @@
 body{
     background-color: #001a33;
     font-family: abc;
+    padding-top: 10px;
 }
 
 p{
@@ -13,7 +14,7 @@ p{
     color: #001a33;
     width: 80%;
     margin: 0 auto;
-    padding-top: 5px;
+    
 }
 .one{
     animation-delay: 1s;
@@ -72,3 +73,18 @@ p{
         font-size: 5vw;
     }
 }
+hr{
+    width: 0%;
+    animation-delay: 22s;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    border: 1px solid #001a33;
+}
+@keyframes line{
+    5%{border-color: #001a33;}
+    100%{border-color: #1a8cff;}
+    15%{width: 0%;}
+    100%{width: 30%;}
+}
+
